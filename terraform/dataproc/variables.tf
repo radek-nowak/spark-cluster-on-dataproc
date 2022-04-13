@@ -4,6 +4,12 @@ variable "project_id" {
   default     = ""
 }
 
+variable "ingestion_bucket_name" {
+  description = "The name of GCS bucket used for ingestion"
+  type        = string
+  default     = ""
+}
+
 variable "staging_bucket_name" {
   description = "The name of GCS bucket used for staging"
   type        = string
